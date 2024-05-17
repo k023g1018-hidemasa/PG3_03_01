@@ -37,7 +37,7 @@ int main() {
 		//coutはiostreamをincして
 		if (*itr == "Tamati") {
 			itr = lst.insert(itr, "Takanawa-Gateway");
-			std::cout << *itr << "\n";//ここに入れて表示してると田畑が引っかからない
+			std::cout << *itr << "\n";///ここに入れて表示してると田畑が引っかからない
 			++itr;//ここで田畑に変更
 		}
 		
